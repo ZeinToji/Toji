@@ -6,17 +6,16 @@
 class script(object):
     START_TXT = """<b>Hello👋🏻 {} I'm <a href=https://t.me/{}>{}</a>, 
     
-    📍 I Can Provide Movies & Series 
-    📍 Fast Online Streaming Links 
-    📍 Created By @R_Bots_Updates</b>"""
+📍 I Can Provide Movies & Series 
+📍 Fast Online Streaming Links 
+📍 Created By @R_Bots_Updates</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/VJMasterBlastBot>ᵗʰᵃˡᵃᵖᵃᵗʰʸ ᶠⁱˡᵗᵉʳ ᵇᵒᵗ 🇮🇳</a>
- ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/kingvj01'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a> 
+    ABOUT_TXT = """<b>📍 Bot Details
+ ‣ ᴍʏ ɴᴀᴍᴇ : R3 bot
+ ‣ ᴏᴡɴᴇʀ : <a href='https://t.me/GraveReaper'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
  ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -24,14 +23,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     SOURCE_TXT = """
-<b>Hᴇʏ, Tʜɪs ɪs ᴀ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
-
-Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
-
-Where is source code? - <a href='https://youtube.com/@Tech_VJ'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
-
-
-Developer - <a href='https://t.me/KingVj01'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+<b>Sᴏʀʀʏ, ᴛʜɪs ɪs ᴀ ɴᴏᴛ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
 
 
