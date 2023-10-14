@@ -4,7 +4,11 @@
 
 
 class script(object):
-    START_TXT = """<b>Hello👋🏻 {},I'm <a href=https://t.me/{}>{}</a>, /n📍 I Can Scarp Movies & Series /n📍 Get Online Streaming Links /n⚜📍 Created By  @r_Bots_Updates</b>"""
+    START_TXT = """<b>Hello👋🏻 {} I'm <a href=https://t.me/{}>{}</a>, 
+    
+    📍 I Can Provide Movies & Series 
+    📍 Fast Online Streaming Links 
+    📍 Created By @R_Bots_Updates</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
