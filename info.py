@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Toji:IFTM@cluster0.yhczm46.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Toji:IFTM@cluster0.auowne7.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -55,7 +55,7 @@ IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
-PORT = environ.get("PORT", "")
+PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/typeanymovieHD4')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/R_Bots_Updates')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HowToUseBot101')
@@ -100,8 +100,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://intermediate-jenica-r3.koyeb.app/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://intermediate-jenica-r3.koyeb.app/".format(FQDN, PORT)
+URL = "".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -116,9 +116,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://intermediate-jenica-r3.koyeb.app/".format(FQDN)
+    URL = "".format(FQDN)
 else:
-    URL = "https://intermediate-jenica-r3.koyeb.app/".format(FQDN)
+    URL = "".format(FQDN)
 
 
 
